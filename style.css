@@ -1,0 +1,24 @@
+.flex-container{
+    /* height: 500px; */
+    /* width: 500px; */
+    border: 2px solid;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.flex-container>div{
+    height: 50px;
+    border: 2px solid;
+}
+.flex-child1{
+    flex-basis: auto;
+    background-color: blanchedalmond;
+}
+.flex-child2{
+    flex-basis: 600px;
+    background-color: aqua;
+}
+.flex-child3{
+    flex-basis:900px;
+    background-color: aquamarine;
+}
